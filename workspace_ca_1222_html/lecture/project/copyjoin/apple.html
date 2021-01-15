@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Apple ID 생성 - Apple (KR) Copy</title>
+</head>
+
+<body>
+    Apple ID 로그인 Apple ID 생성 FAQ
+    <!-- 메뉴 간격 조절 어떻게 하는지 모르겠음 -->
+    <h1 style="text-align:center">
+        Apple ID 생성
+        <!-- 이미지 같은데 어떻게 백그라운드에 넣는걸까 div로 나눠서 크기 정한다음에 글자 넣은듯 -->
+    </h1>
+    <h3 style="text-align:center">
+        <!-- 글자마다 h1 h3 이런거 말고 p로 단락잡은다음에 정렬이나 글자속성 바꾸면 될거같음 -->
+        하나의 Apple ID로 모든 Apple 서비스를 이용할 수 있습니다.<br>
+        Apple ID를 가지고 계십니까? <a href="http://www.아이디찾기사이트.com">찾아보기 ></a> <!-- 유일하게 제대로 한거같음 -->
+    </h3>
+    <p style="text-align: center;">
+        <!-- tr속성으로 가운데 정렬을 넣었는데 동작하지 않아서 전체 잡아서 가운데 정렬시도함 동작은 하는데 아무리 p로 다 묶여있어도 hr에서 끊김 그래서 hr다음에 일일이 새로 p 추가함 -->
+
+        <tr>
+            <td><input type="text" name="성" placeholder="  성"
+                    style="font-size: 14px; text-align:left; margin:5px; width:330px; height:44px;">
+                <input type="text" name="이름" placeholder="  이름"
+                    style="font-size: 14px; text-align:left; margin:5px; width:330px; height:44px;"><br><br>
+            <td>국가/지역</td><br> <!-- 이런 자잘한것들 다 p로 묶거나 h 중에 하나 정해놓고 쓰는게 편할듯하다 -->
+            <td><select>
+                    <option value="국가/지역" selected
+                        style="font-size: 14px; text-align:left; margin:5px; width:330px; height:44px;">국가/지역</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option> <!-- 배운게 셀렉트 옵션밖에 없어서 이걸썻지만 뭔가 다른걸로 한듯함 -->
+                </select></td><br><br>
+            <td><input type="text" name="생년월일" placeholder="  생년월일"
+                    style="font-size: 14px; text-align:left; margin:5px; width:330px; height:44px;"><br><br>
+                <hr><br> <!-- 뒤에 물음표 뭘까 이미지?? hr 색상 바꾸는법 뭘까 style color는 안먹히는듯-->
+                <p style="text-align: center;">
+            <td><input type="text" name="이메일" placeholder="  name@example.com"
+                    style="font-size: 14px; text-align:left; margin:5px; width:330px; height:44px;"><br>
+                새 Apple ID로 사용될 주소입니다.<br><br>
+            <td><input type="text" name="암호" placeholder="  암호"
+                    style="font-size: 14px; text-align:left; margin:5px; width:330px; height:44px;"><br><br>
+            <td><input type="text" name="암호확인" placeholder="  암호확인"
+                    style="font-size: 14px; text-align:left; margin:5px; width:330px; height:44px;"><br><br>
+                <hr><br><br>
+                <p style="text-align: center;">
+            <td><select>
+                    <!--  -->
+
+                    <option value="+82 (대한민국)" selected
+                        style="font-size: 14px; text-align:left; margin:5px; width:330px; height:44px;">지역코드</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select></td><br><br>
+            <td><input type="text" name="전화번호" placeholder="  전화번호"
+                    style="font-size: 14px; text-align:left; margin:5px; width:330px; height:44px;"><br><br>
+                항상 사용할 수 있는 전화번호를 입력하십시오. 새 기기나 웹 브라우저에 로그인할 때<br>
+                해당 전화번호를 사용하여 신원을 확인합니다. 메시지 또는 데이터 요금이 적용될 수 있습니다.<br><br>
+                <!-- 글자크기 글 여백등 엉망 어떻게 바꾸는걸까 가운데정렬이 아니라 왼쪽정렬을 사용해야 하는데 -->
+
+            <td>번호 확인 방법 <input type="radio" name="문자 메세지"> 문자 메세지<input type="radio" name="음성메세지"> 음성 메세지</td>
+            <br><br>
+            <hr><br>
+            <p style="text-align: center;">
+                <td><input type="checkbox" name="공지사항"> 공지사항<br>
+                    Apple 제품, 서비스 및 소프트웨어에 대한 공지사항, 추천 및 업데이트를 받아봅니다.</td><br><br>
+                <td><input type="checkbox" name="앱,음악,영화등"> 앱, 음악, 영화 등<br>
+                    앱, 음악, 영화, TV, 도서, 팟캐스트 등에 대한 신규 출시 정보, 독점 콘텐츠, 특별 할인 및 추천을 받아봅니다.</td><br><br>
+                <hr><br><br>
+            <p style="text-align: center;">
+                <td><input type="checkbox" name="개인정보"> <a href="http://www.개인정보약관.com">Apple의 개인정보 처리방침</a>에 따라 개인 정보를
+                    수집,
+                    사용, 타사에 대한 제공 및 처리하는 데 동의합니다.</td><br><br>
+        </tr>
+    </p>
+</body>
+
+</html>
