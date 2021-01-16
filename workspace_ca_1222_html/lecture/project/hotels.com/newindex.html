@@ -17,19 +17,17 @@
         .redtitle {
             background-color: #d42f2f;
             width: 100%;
-            height: 57px;
+            height: 59px;
             border-collapse: collapse;
         }
 
         .whitetitle {
             background-color: white;
-            position:;
-            height: 32px;
-        }
-
-        .bgpicture {
-            background-color: gray;
-            height: 268px;
+            height: auto;
+            padding: 6px;
+            padding-bottom: 8px;
+            padding-left: 7px;
+            
         }
 
         .logo {
@@ -38,7 +36,7 @@
         }
 
 
-        .sprite {
+        /* .sprite {
             display: inline-block; 
             transform: scale(2);
             overflow: hidden; 
@@ -53,24 +51,97 @@
 
         .sprite-flags-kor {
             background-position: -60px -60px;
+        } */
+
+        .bgimg {
+            background-image: url('bgimg.jpg');
+            height: 256px;
+            background-size:100%;
+            background-position-y: -17px;
+            padding-left: 148px;
+            padding-top: 10px;
+
         }
+        .a {
+            font-size: 12px;
+            padding-left: 99px;
+            font-family: Arial;
+            text-decoration: none;
+        }
+        .b {
+            font-size: 12px;
+            padding-left: 28px;
+            font-family: Arial;
+            text-decoration: none;
+        }
+        .a:hover, .b:hover {
+            color: red;
+        }
+        a {
+            text-decoration: none;
+            color: rgb(77,77,77);
+            padding-top: 1px;
+        }
+        a:hover {
+            color: #006BA0;
+            text-decoration-line: underline;
+        }
+        .c {
+            font-size: 12px;
+            font-family: Arial;
+            color: white;
+            text-decoration:none;
+            letter-spacing: 0.3px;
+        }
+        .category {
+            text-decoration: none;
+            color: white;
+            padding-top: 1px;
+        }
+        .category:hover {
+            color: white;
+            text-decoration-line: underline;
+            text-decoration-color: black;
+        }
+        .d {
+            font-size: 32px;
+            font-family: Arial;
+            color: white;
+            padding-top: 22px;
+            font-weight: bold;
+
+        }
+        .e {
+            font-size: 20px;
+            font-family: Arial;
+            color: white;
+            padding-top: 5px;
+        }
+
     </style>
 </head>
 
 <body>
     <div class="redtitle">
         <div class="logo"><a href="newindex.html"><img src="nlogo.png" width="178px"></a></div>
-        <span class="sprite sprite-flags sprite-flags-kor"></span>
+        <!-- <span class="sprite sprite-flags sprite-flags-kor"></span> -->
     </div>
 
     <div class="whitetitle">
-        특가상품
-        사이트 이용 안내
-        숙박 시설 등록하기
-        Hotels.com™ 호텔스닷컴 리워드
+        <span class="a"><a href="https://kr.hotels.com/teukga-hotel-sangpoom/?intlid=OTHER+%3A%3A+header_main_section">특가 상품</a></span>
+        <span class="b"><a href="https://kr.hotels.com/page/first-time-user-guide/?intlid=OTHER+%3A%3A+header_main_section">사이트 이용 안내</a></span>
+        <span class="b"><a href="https://welcome.expediagroup.com/ko/how-to-list-your-property-on-hotels?utm_term=unknown&utm_campaign=OTHER&utm_medium=referral&lasttouchMktgcode=unknown&utm_source=HCOM_KR-ko_KR&utm_content=header-link">숙박 시설 등록하기</a></span>
+        <span class="b"><a href="https://kr.hotels.com/hotel-rewards-pillar/hotelscomrewards.html?intlid=OTHER+%3A%3A+header_main_section">Hotels.com™ 호텔스닷컴 리워드</a></span>
     </div>
-    <div class="bgpicture">
-
+    <div class="bgimg">
+        <span class="c" id="first"><a class="category" href="https://kr.hotels.com">호텔</span></a>
+        <span class="c">&nbsp;>&nbsp;</span>
+        <span class="c"><a class="category" href="https://kr.hotels.com/hotel-deals/">특가 상품</span></a>
+        <span class="c">&nbsp;>&nbsp;</span>
+        <span class="c">국내 펜션 특가</span>
+        <div class="d">국내 펜션 특가</div>
+        <div class="e">지금 예약하세요!</div>
+        
     </div>
 
 
