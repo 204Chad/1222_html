@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook 가입</title>
+    <style>
+        * {
+            margin: 2px;
+            padding: 2px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        span {
+            margin: 0px;
+            padding: 0px;
+        }
+        h4 {
+            padding-top: 0px;
+            border-top: 0px;
+            color: gray;
+            border-bottom: solid 1px gray;
+        }
+
+        h6 {
+            color: gray;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+        }
+
+        .atag {
+            text-decoration: none;
+            color: grey;
+        }
+
+        .name {
+            text-align: left;
+            padding: 3px;
+            background-color: rgb(245,246,247);
+            width: 182px;
+            height: 30px;
+            font-size: 13px;
+            display: inline;
+        }
+
+        .longtext {
+            text-align: left;
+            padding: 3px;
+            background-color: rgb(245,246,247);
+            width: 381px;
+            height: 30px;
+            font-size: 13px;
+            display: inline;
+        }
+
+        select {
+            padding-left: 8px;
+            width: 125px;
+            height: 30px;
+            font-size: 13px;
+            background: url('arrow.png') no-repeat 95% 50%;
+            background-size: 15px;
+            border-radius: 3px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+
+        .gender {
+            padding-left: 8px;
+            width: 125px;
+            height: 30px;
+            font-size: 13px;
+            background: url('arrow.png') no-repeat 95% 50%;
+            background-size: 15px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>가입하기</h1>
+        <h4>빠르고 쉽습니다.</h4>
+    </div>
+
+    <div>
+        <span>
+            <input class="name" type="text" name="lastname" placeholder=" 성(姓)">
+            <input class="name" type="text" name="firstname" placeholder=" 이름(성은 제외)">
+        </span>
+    </div>
+    <div>
+        <input class="longtext" type="text" name="contact" placeholder=" 휴대폰 번호 또는 이메일">
+    </div>
+    <div>
+        <input class="longtext" type="text" name="password" placeholder=" 새 비밀번호">
+    </div>
+
+    <div>
+        <div>
+            <h6>생일 <a class="atag" href="#">?</a></h6>
+        </div>
+        <span>
+            <select>
+                <option value="1996" selected> 1996</option>
+                <option value="0">1997</option>
+                <option value="1">1998</option>
+                <option value="2">1999</option>
+                <option value="3">2000</option>
+            </select>
+            <select>
+                <option value="1" selected> 1월</option>
+                <option value="2">2월</option>
+                <option value="3">3월</option>
+                <option value="4">4월</option>
+                <option value="5">5월</option>
+            </select>
+            <select>
+                <option value="24" selected> 24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+            </select>
+        </span>
+    </div>
+
+    <div>
+        <div>
+            <h6>성별 <a class="atag" href="#">?</a></h6>
+        </div>
+        <div>
+            <span>
+                <input class="gender" type="radio" name="women" placeholder=" 여성">
+                <input class="gender" type="radio" name="men" placeholder=" 남성">
+                <input class="gender" type="radio" name="somethingelse" placeholder=" 직접 지정">
+            </span>
+        </div>
+        <h6>
+            <div>가입하기 버튼을 클릭하면 Facebook의 약관, 데이터 정책 및 쿠키 정책에 동의하게 됩니다.</div>
+            <div>Facebook으로부터 SMS 알림을 받을 수 있으며 알림은 언제든지 옵트 아웃할 수 있습니다.</div>
+        </h6>
+    </div>
+</body>
+
+</html>
